@@ -4,7 +4,7 @@ const addElement = function (){
 
   const ddiv = document.createElement('DIV');
   ddiv.textContent=licznik;
-  if(licznik==4){
+  if(licznik%4==0){
     ddiv.classList.add('circle')
   }
 
