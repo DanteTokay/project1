@@ -1,0 +1,32 @@
+body{
+  background-color: #676676;
+  font-family: 'Open Sans', sans-serif;
+}
+button{
+  display: block;
+  margin: 50px auto;
+  border: solid 2px green;
+  }
+button:hover{
+  background-color: #345345;
+  cursor: pointer;
+}
+div{
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  float: left;
+  margin: 5px;
+  text-align: center;
+  color: white;
+  line-height: 50px;
+  border-radius: 5%;
+  border: solid 2px red;
+}
+
+.circle{
+  background-color: white;
+  color: #000;
+  border-radius:50%;
+
+}
